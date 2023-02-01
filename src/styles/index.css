@@ -25,18 +25,18 @@ li {
 }
 
 .box {
-    width: 300px;
+    width: 320px;
 }
 
 
 .task {
-    width: 300px;
+    width: 320px;
 }
 
 
 input {
     background: rgb(251, 215, 233);
-    width: 288px;
+    width: 308px;
 }
 
 .delete {
