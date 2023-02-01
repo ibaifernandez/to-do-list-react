@@ -43,7 +43,7 @@ const Home = () => {
 						/>
 					</li>
 					{tasks.map((task) => (
-						<li key={task.id} className="task mx-auto d-flex justify-content-between border-0 text-muted fs-4 container-fluid rounded-2">{task.name}
+						<li key={task.id} className="task mx-auto d-flex justify-content-between border-0 text-muted fs-4 container-fluid rounded-2 mt-1 mb-1">{task.name}
 						<button className="delete rounded-2 border-1 mt-1 mb-1" onClick={() => {removeTask(task)}}>
 							X
 						</button>
